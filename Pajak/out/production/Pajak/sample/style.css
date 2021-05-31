@@ -1,0 +1,189 @@
+#background2 {
+    -fx-background-radius: 18;
+    /*fx-effect : dropshadow(Gaussian,<color>,<shadow size = 1-127>,<fade = 0.0-1.0>,<offetx = 0.0-1.0>,<offsety = 0.0-1.0>) */
+    -fx-effect : dropshadow(Gaussian,Gray,30,0.1,0.1,0.5)
+}
+
+#notification {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: red;
+}
+
+#redbutton {
+    -fx-background-radius: 14;
+    -fx-background-color:  #e74c3c;
+
+}
+
+#redbutton:hover {
+    -fx-background-radius: 14;
+    -fx-background-color:  #c02231;
+
+}
+
+
+#option {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color : #342453;
+    -fx-background-color : #ffffff;
+    -fx-border-width: 2;
+}
+
+#option:hover {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 4;
+}
+
+#option:focused {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 4;
+}
+
+.radio-button{
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color : #342453;
+    -fx-background-color : #ffffff;
+    -fx-border-width: 3;
+    -fx-padding: 6;
+}
+
+.radio-button:hover{
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 3;
+    -fx-padding: 6;
+}
+
+.radio-button:focused{
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 3;
+    -fx-padding: 6;
+}
+
+.radio-button .radio {
+        -fx-border-width: 2;
+        -fx-border-radius: 18;
+        -fx-border-color : #342453;
+        -fx-background-color : #ffffff;
+        -fx-padding: 4;
+}
+
+.radio-button .radio:hover {
+        -fx-border-width: 2;
+        -fx-border-radius: 18;
+        -fx-border-color : #e74c3c;
+        -fx-background-color : #ecf0f1;
+        -fx-padding: 4;
+}
+
+.radio-button .radio:selected {
+        -fx-border-width: 2;
+        -fx-border-radius: 18;
+        -fx-border-color : #e74c3c;
+        -fx-background-color : #ecf0f1;
+        -fx-padding: 4;
+}
+
+
+#choicebox1 {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color : #342453;
+    -fx-background-color : #ffffff;
+    -fx-border-width: 2;
+}
+
+#choicebox1 .context-menu{
+    -fx-pref-width: 625;
+
+}
+
+#choicebox1:hover {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 4;
+}
+
+#choicebox1:focused {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 4;
+}
+
+#choicebox2{
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color : #342453;
+    -fx-background-color : #ffffff;
+    -fx-border-width: 2;
+}
+
+#choicebox2 .context-menu{
+    -fx-pref-width: 310;
+}
+
+#choicebox2:hover {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 4;
+}
+
+#choicebox2:focused {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-background-color : #ecf0f1;
+    -fx-text-fill: #e74c3c;
+    -fx-border-color : #e74c3c;
+    -fx-border-width: 4;
+}
+
+#whitebutton {
+    -fx-background-radius: 14;
+    -fx-background-color:  #ecf0f1;
+    -fx-border-color: #e74c3c;
+    -fx-border-width: 1;
+    -fx-border-radius: 14;
+}
+
+#whitebutton:hover {
+    -fx-background-radius: 14;
+    -fx-background-color:  #f9fdff;
+    -fx-border-color: #e74c3c;
+    -fx-border-width: 1;
+    -fx-border-radius: 14;
+}
+
+#detail {
+    -fx-background-radius: 18;
+    -fx-border-radius: 18;
+    -fx-border-color : #342453;
+    -fx-background-color : #ffffff;
+    -fx-border-width: 2;
+}
+
